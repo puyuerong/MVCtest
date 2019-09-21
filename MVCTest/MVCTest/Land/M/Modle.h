@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Modle : UIViewController
+@interface Modle : NSObject
 @property NSString *nameStr;
 @property NSString *psdStr;
 - (void)checkName:(NSString*)name password:(NSString*)psd;
